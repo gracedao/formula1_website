@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formula 1 | Home</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">F1</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" id="navToggle"></button>
+      <ul class="nav-list" id="navList">
+        <li><a href="index.html" data-active="home">Home</a></li>
+        <li><a href="teams.html" data-active="teams">Teams</a></li>
+        <li><a href="learn.html" data-active="learn">Learn</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section id="what" class="section">
+      <h2>What is Formula 1</h2>
+      <div class="grid two">
+        <div>
+          <p>Founded in 1950, Formula 1 is the most prestigious motor racing competition. As of 2025 it spans five continents, regulated by the Fédération Internationale de l'Automobile. The season runs 24 Grands Prix. Teams compete for Drivers and Constructors Championships under strict technical and sporting regulations. Sponsors fund development within the rules.</p>
+          <ul class="bullets">
+            <li>24 Grands Prix</li>
+            <li>5 continents</li>
+            <li>10 teams, 2 drivers each</li>
+          </ul>
+        </div>
+        <figure class="media">
+          <img src="img/image-3.png" alt="Multiple F1 cars on track">
+          <figcaption>Race start action</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" id="summary">
+      <h2>Teams and Drivers</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Team</th>
+              <th>Driver 1</th>
+              <th>Driver 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>McLaren</td><td>Oscar Piastri</td><td>Lando Norris</td></tr>
+            <tr><td>Mercedes</td><td>George Russell</td><td>Kimi Antonelli</td></tr>
+            <tr><td>Ferrari</td><td>Charles Leclerc</td><td>Lewis Hamilton</td></tr>
+            <tr><td>Red Bull Racing</td><td>Max Verstappen</td><td>Yuki Tsunoda</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p><a class="btn ghost" href="teams.html">See full grid</a></p>
+    </section>
+
+    <section class="section contrast" id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="img/image-2.png" alt="Lewis Hamilton Bahrain practice in Ferrari">
+        <img src="img/image-1.png" alt="2025 F1 Grid Drivers">
+        <img src="img/image.png" alt="Hamilton wins title Turkish GP 2020">
+      </div>
+      <div class="modal" id="imgModal">
+        <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+        <img id="modalImg" alt="Preview">
+        <p id="modalCaption"></p>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <h2>Quick answers</h2>
+      <details>
+        <summary>How do championships work</summary>
+        <p>Drivers and teams score points by finishing in the top positions. The most points over the season win the titles.</p>
+      </details>
+      <details>
+        <summary>How do teams gain advantage</summary>
+        <p>Engineering upgrades within the rules, race strategy, pit stop execution, and driver performance.</p>
+      </details>
+      <details>
+        <summary>Is driver radio always on</summary>
+        <p>Radio communication is managed by teams and can be restricted by regulations.</p>
+      </details>
+    </section>
+
+    <section class="section contrast" id="links">
+      <h2>See also</h2>
+      <ul class="links">
+        <li><a href="https://www.formula1.com/en/results/2025/drivers" target="_blank" rel="noopener">2025 Drivers' Standing</a></li>
+        <li><a href="https://f1miamigp.com/news/press-release/beginners-guide-formula-1/" target="_blank" rel="noopener">Beginner guide</a></li>
+        <li><a href="https://www.formula1.com/en/drivers" target="_blank" rel="noopener">F1 Drivers 2025</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>References</p>
+    <ol class="refs">
+      <li><a href="https://www.formula1.com/en/page/what-is-f1" target="_blank" rel="noopener">What is F1</a></li>
+      <li><a href="https://www.formula1.com/en/latest/article/drivers-teams-cars-circuits-and-more-everything-you-need-to-know-about.7iQfL3Rivf1comzdqV5jwc" target="_blank" rel="noopener">Everything you need to know</a></li>
+      <li><a href="https://www.britannica.com/sports/Formula-One-automobile-racing" target="_blank" rel="noopener">Britannica F1</a></li>
+    </ol>
+    <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
